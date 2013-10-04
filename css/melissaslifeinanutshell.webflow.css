@@ -1,7 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
-  background-color: black;
   font-size: 12px;
   line-height: 20px;
 }
@@ -18,9 +17,9 @@ h1 {
   text-align: right;
 }
 h2 {
-  margin: -10px 0px 10px -37px;
+  margin: -10px 0px 10px -36px;
   padding-top: 0px;
-  padding-right: 0px;
+  padding-right: 11px;
   padding-left: 0px;
   font-family: Montserrat, sans-serif;
   color: #628cb3;
@@ -70,7 +69,13 @@ p {
   padding: 18px 21px;
   border-radius: 5px;
   background-color: black;
-  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.48) 0px 3px 12px 0px;
+  background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+  background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+  background-image: linear-gradient(#ff8d5e, #d7624b);
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
   font-family: Montserrat, sans-serif;
   color: white;
   font-size: 22px;
@@ -79,18 +84,36 @@ p {
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button:hover {
-  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.48) 0px 3px 12px 0px;
+  background-image: -webkit-linear-gradient(#ff9d73, #d7624b);
+  background-image: -o-linear-gradient(#ff9d73, #d7624b);
+  background-image: linear-gradient(#ff9d73, #d7624b);
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button.app-store {
   width: 154px;
   padding-top: 9px;
   padding-bottom: 9px;
-  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.48) 0px 3px 12px 0px;
+  background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+  background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+  background-image: linear-gradient(#ff8d5e, #d7624b);
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .button:hover.app-store:hover {
-  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.48) 0px 3px 12px 0px;
+  background-image: -webkit-linear-gradient(#ffa882, #d7624b);
+  background-image: -o-linear-gradient(#ffa882, #d7624b);
+  background-image: linear-gradient(#ffa882, #d7624b);
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+  -webkit-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
   text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
 }
 .section {
@@ -191,7 +214,7 @@ p {
 }
 .hero-subtitle {
   margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.83);
   font-size: 15px;
   line-height: 22px;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
@@ -264,13 +287,13 @@ p {
 }
 .footer-link {
   margin-left: 8px;
-  border-bottom: 1px solid rgba(131, 125, 153, 0.33);
+  border-bottom: 1px solid rgba(131, 125, 153, 0.34);
   font-family: Bitter, serif;
   color: #837d99;
   text-decoration: none;
 }
 .footer-link:hover {
-  border-bottom: 1px solid rgba(131, 125, 153, 0.85);
+  border-bottom: 1px solid rgba(131, 125, 153, 0.86);
 }
 .footer-text {
   display: inline;
@@ -282,7 +305,13 @@ p {
   display: inline-block;
   padding: 18px 23px;
   border-radius: 4px;
-  box-shadow: rgba(255, 255, 255, 0.44) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, black 0px 1px 6px 0px;
+  background-image: -webkit-linear-gradient(bottom, #d8634c, #fe8c5e);
+  background-image: -o-linear-gradient(bottom, #d8634c, #fe8c5e);
+  background-image: linear-gradient(to top, #d8634c, #fe8c5e);
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, black 0px 1px 6px 0px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
   font-family: Montserrat, sans-serif;
   color: white;
   font-size: 22px;
@@ -290,7 +319,13 @@ p {
   text-shadow: rgba(0, 0, 0, 0.13) 0px 2px 0px;
 }
 .buttontwo:hover {
-  box-shadow: rgba(255, 255, 255, 0.44) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, black 0px 1px 6px 0px;
+  background-image: -webkit-linear-gradient(bottom, #d8634c, #ffa27d);
+  background-image: -o-linear-gradient(bottom, #d8634c, #ffa27d);
+  background-image: linear-gradient(to top, #d8634c, #ffa27d);
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, black 0px 1px 6px 0px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
   text-shadow: rgba(0, 0, 0, 0.13) 0px 2px 0px;
 }
 .img {
@@ -332,8 +367,8 @@ p {
   margin-left: -1px;
 }
 .websites {
-  padding-right: 38px;
-  padding-left: 143px;
+  padding-right: 36px;
+  padding-left: 141px;
 }
 .img-7 {
   margin-right: 1px;
@@ -352,7 +387,10 @@ p {
     line-height: 21px;
   }
   .button {
-    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.48) 0px 3px 12px 0px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section.hero {
@@ -380,13 +418,19 @@ p {
   }
   .button {
     margin-bottom: 50px;
-    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.48) 0px 3px 12px 0px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
     margin-top: 12px;
     margin-bottom: 0px;
-    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.48) 0px 3px 12px 0px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section {
@@ -427,7 +471,7 @@ p {
     text-shadow: black 0px 0px 0px;
   }
   .subfooter-right {
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-top: 1px solid rgba(0, 0, 0, 0.09);
   }
   .subfooter-left {
     text-align: center;
@@ -439,11 +483,17 @@ p {
     line-height: 23px;
   }
   .button {
-    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.48) 0px 3px 12px 0px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .button.app-store {
-    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.48) 0px 3px 12px 0px;
+    background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+    background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+    background-image: linear-gradient(#ff8d5e, #d7624b);
+    box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
     text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
   }
   .section {
